@@ -1,4 +1,6 @@
 #!/bin/bash
+echo $PATH > /tmp/path.txt
+PATH=$PATH:/usr/local/bin
 export DISPLAY=:0
 cd /data/app/taiwan-rate-history-charts/src/crawler;
 git pull;
