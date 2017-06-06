@@ -8,5 +8,6 @@ mkdir img;
 cd src/crawler;
 /usr/local/bin/casperjs test main.js;
 cd ../..;
+git add .
 git commit -am "Auto commit @"`date +%Y%m%d`
 git push origin --force --all;
