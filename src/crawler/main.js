@@ -1,8 +1,8 @@
 var CONST = {
   pages: {
-      'CNY-USD' : 'http://rate.bot.com.tw/xrt/quote/l6m/CNY-USD',
-      'EUR-USD' : 'http://rate.bot.com.tw/xrt/quote/l6m/EUR-USD',
-      'JPY-USD' : 'http://rate.bot.com.tw/xrt/quote/l6m/JPY-USD',
+      'CNY-USD' : 'https://rate.bot.com.tw/xrt/quote/l6m/CNY-USD?Lang=zh-TW',
+      'EUR-USD' : 'https://rate.bot.com.tw/xrt/quote/l6m/EUR-USD?Lang=zh-TW',
+      'JPY-USD' : 'https://rate.bot.com.tw/xrt/quote/l6m/JPY-USD?Lang=zh-TW',
   }
 }
 
